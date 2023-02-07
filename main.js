@@ -18,7 +18,7 @@ if (usuarioIngresado != '') {
 
         for (let i = 0; i < 100; i++) {
             if (gradosCelsius > 0) {
-                alert(usuarioIngresado + 'la conversion de ' + gradosCelsius + '°C son ' + (gradosCelsius * 9 / 5 + 32) + '°F');
+                alert(usuarioIngresado + ' la conversion de ' + gradosCelsius + '°C son ' + (gradosCelsius * 9 / 5 + 32) + '°F');
                 gradosCelsius = parseInt(prompt('Ingrese grados celsius:  (para salir ingrese: 0)'));
             } else if (gradosCelsius === 0) {
                 alert('Chao ;D')
